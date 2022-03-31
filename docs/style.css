@@ -205,7 +205,7 @@ hr {
         opacity: 0.8
     }
 
-    
+
 }
 
 .center-intro {
@@ -215,6 +215,7 @@ hr {
 .center-intro h2 {
     margin-top: 72px;
 }
+
 .main-sign-up {
     display: flex;
     margin-top: 58px;
@@ -234,8 +235,8 @@ hr {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left:  90px;
-    padding-right:  90px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .sign-up-text h3 {
@@ -272,24 +273,16 @@ hr {
     color: #737373;
     margin: 0;
     padding: 0;
-   padding: 10px 0;
+    padding: 10px 0;
 }
+
 .varieties {
     display: flex;
     margin-bottom: 100px;
     padding-bottom: 25px;
     padding-top: 78px;
-    
 }
-
-
-
-
-
-
-
 
 .checkout {
     display: flex;
-    
 }
