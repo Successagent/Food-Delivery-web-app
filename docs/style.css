@@ -325,6 +325,7 @@ hr {
         text-align: center;
         background-repeat: no-repeat;
         min-height: 550px;
+        padding-bottom: 50px;
     }
 
     .main-header h3 {
