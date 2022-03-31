@@ -110,11 +110,11 @@ hr {
 }
 
 .center-image {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        margin-right: 50px;    
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
 }
 
 /* Media-Query For Big Screen */
@@ -193,10 +193,102 @@ hr {
     li:hover {
         transform: scale(1.2);
     }
+
+    .center-intro h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+        /* identical to box height, or 82% */
+        letter-spacing: 0.1px;
+        color: #000000;
+        opacity: 0.8
+    }
+
+    
 }
+
 .center-intro {
     text-align: center;
- }
- .center-intro h2 {
+}
+
+.center-intro h2 {
     margin-top: 72px;
- }
+}
+.main-sign-up {
+    display: flex;
+    margin-top: 58px;
+    margin-bottom: 25px;
+    padding-top: 78px;
+    padding-bottom: 60px;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.sign-up-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left:  90px;
+    padding-right:  90px;
+}
+
+.sign-up-text h3 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    margin-bottom: 7px;
+}
+
+.sign-up-text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 0;
+    padding: 0;
+    padding: 10px 0;
+    margin-bottom: 17px;
+}
+
+.sign-up-text h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 0;
+    padding: 0;
+   padding: 10px 0;
+}
+.varieties {
+    display: flex;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+    padding-top: 78px;
+    
+}
+
+
+
+
+
+
+
+
+.checkout {
+    display: flex;
+}
