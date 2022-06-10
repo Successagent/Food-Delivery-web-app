@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c6c5c3cb4b.js" crossorigin="anonymous"></script>
     <title>Food Delivery App</title>
 </head>
 
@@ -17,8 +18,10 @@
         <section class="header-logo">
             <img src="./assets/left.png" alt="Header Logo">
         </section>
+
         <nav>
-            <ul>
+            <button data-visible="false" class="nav-btn"><i class="fa-solid fa-bars nav-icon"></i></button>
+            <ul class="nav-list" data-visible="false">
                 <li><a class="home" href="#home">Home</a></li>
                 <li><a href="#product">Product</a></li>
                 <li><a href="#faq">Faq</a></li>
@@ -121,7 +124,7 @@
         </div>
         <p>Copywright &copy; 2022 Bella Onojie.com</p>
     </footer>
-
+<script src="app.js"></script>
 </body>
 
 </html>
